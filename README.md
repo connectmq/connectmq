@@ -1,6 +1,10 @@
 ## Hi there 👋
 
-Cloud Native MQTT Broker Infrastructure - connectmq.com
+Free public MQTT broker
+A free, shared MQTT broker for learning, prototyping and testing. Connect any MQTT 3.1.1 or MQTT 5 client and start publishing in seconds.
+
+PUBLIC MQTT BROKER ADDRESS
+broker.connectmq.com
 
 <!--
 **connectmq/connectmq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
