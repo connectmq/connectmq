@@ -1,40 +1,68 @@
-# MQTT Code Samples by ConnectMQ
+<div align="center">
 
-[![ConnectMQ](https://img.shields.io/badge/MQTT%20broker-ConnectMQ-84cc16)](https://connectmq.com/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-badge)
-[![Free public broker](https://img.shields.io/badge/public%20broker-broker.connectmq.com-0b2545)](https://connectmq.com/public-mqtt-broker/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-badge)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+# ConnectMQ
 
-Ready-to-run MQTT examples for **12 languages and platforms**: connect, subscribe and publish a JSON sensor reading in a few lines of code.
+### Connect every device. Run zero brokers.
 
-Every example comes in two versions:
+A private, secure **managed MQTT broker** in minutes — with live dashboards, rules and alerts built in.<br>
+Connect sensors, machines, vehicles and apps without running a single server.
 
-1. **`public-broker/`** — runs right away on the free public broker `broker.connectmq.com`, no account needed.
-2. **`private-broker/`** — the same code on a secure private broker on **[ConnectMQ](https://connectmq.com/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-intro)**: TLS, a username and password per device and per-topic access control.
+[![Website](https://img.shields.io/badge/website-connectmq.com-84cc16)](https://connectmq.com/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=badge)
+[![Start free](https://img.shields.io/badge/start%20free-no%20credit%20card-0b2545)](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=badge)
+[![Code samples](https://img.shields.io/badge/code%20samples-12%20languages-2ea44f)](https://github.com/connectmq/mqtt-code-samples)
+[![MQTT](https://img.shields.io/badge/MQTT-3.1.1%20%26%205-660066)](https://connectmq.com/connectivity/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=badge)
 
-> **[ConnectMQ](https://connectmq.com/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-intro)** is a managed, serverless MQTT broker for IoT devices, apps and digital twins. Start on the **Serverless (Free)** plan — no credit card. 👉 **[Create your free broker](https://app.connectmq.com/signup?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-intro)**
+<a href="https://connectmq.com/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=screenshot">
+  <img src="assets/connectmq-website.png" alt="ConnectMQ — managed MQTT broker: connect sensors, PLC gateways, vehicles and smart homes to dashboards, backends, mobile apps and data platforms" width="900">
+</a>
 
-## Examples
+**[Start free](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero)** · [Pricing](https://connectmq.com/pricing/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero) · [Code samples](https://github.com/connectmq/mqtt-code-samples) · [Free public broker](https://connectmq.com/public-mqtt-broker/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero)
 
-| Language / platform | Library | Step-by-step guide |
-| --- | --- | --- |
-| [Python](python/) | paho-mqtt 2.x | [Guide](https://connectmq.com/code-samples/python/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-python) |
-| [Node.js](nodejs/) | MQTT.js 5 | [Guide](https://connectmq.com/code-samples/nodejs/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-nodejs) |
-| [ESP32](esp32/) | PubSubClient (Arduino) | [Guide](https://connectmq.com/code-samples/esp32/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-esp32) |
-| [Go](go/) | Eclipse Paho Go | [Guide](https://connectmq.com/code-samples/go/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-go) |
-| [CLI (mosquitto)](cli/) | mosquitto_pub / mosquitto_sub | [Guide](https://connectmq.com/code-samples/cli/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-cli) |
-| [Java](java/) | Eclipse Paho Java Client | [Guide](https://connectmq.com/code-samples/java/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-java) |
-| [C# (.NET)](csharp/) | MQTTnet 4 | [Guide](https://connectmq.com/code-samples/csharp/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-csharp) |
-| [Rust](rust/) | rumqttc | [Guide](https://connectmq.com/code-samples/rust/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-rust) |
-| [Dart (Flutter)](dart-flutter/) | mqtt_client | [Guide](https://connectmq.com/code-samples/dart-flutter/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-dart-flutter) |
-| [Swift / Kotlin](swift-kotlin/) | CocoaMQTT (iOS) · HiveMQ MQTT Client (Android) | [Guide](https://connectmq.com/code-samples/swift-kotlin/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-swift-kotlin) |
-| [Home Assistant](home-assistant/) | MQTT integration | [Guide](https://connectmq.com/code-samples/home-assistant/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-home-assistant) |
-| [Node-RED](node-red/) | mqtt in / mqtt out nodes | [Guide](https://connectmq.com/code-samples/node-red/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-node-red) |
+</div>
 
-Each folder has its own README with install steps, both code versions and how to run them.
+---
 
-## Quick start: the free public broker
+## Why ConnectMQ
 
-No sign-up, no setup — point any MQTT client at it:
+| | |
+| --- | --- |
+| ☁️ **Fully managed & serverless** | No servers to install, patch or scale. Your broker is ready in under a minute. |
+| 🔐 **Private by default** | Every customer gets an isolated broker. TLS and secure WebSockets, a username and password per device. |
+| 🛡️ **Per-topic access control (ACL)** | Decide which client may publish or subscribe to which topic — per username or client ID, with `${clientid}` / `${username}` placeholders. |
+| 📊 **Live dashboards** | See every device and connection: online status, last values, message rates and connection history. |
+| 🏭 **ISA-95 topic organisation** | Organise topics the way your plant is organised — enterprise, site, area, line, equipment. |
+| 🔔 **Rules & alerts** | Turn thresholds on JSON payload fields into alerts, with message templates, browser notifications and an audit log. |
+| 🧊 **3D Digital Twin** | Bind machines to their MQTT topics and see your factory in 3D, live. |
+| 🔌 **Standard MQTT, no lock-in** | MQTT 3.1.1 and MQTT 5 over TCP, TLS and WebSockets. Use any MQTT client — no SDK required. |
+
+## Get started in 3 steps
+
+1. **[Create a free account](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=steps)** — the Serverless (Free) plan needs no credit card.
+2. **Create a broker** and copy its host, username and password from the dashboard.
+3. **Connect your device** with any MQTT client — pick your language in the [code samples](https://github.com/connectmq/mqtt-code-samples).
+
+## Code samples
+
+Ready-to-run examples in **[connectmq/mqtt-code-samples](https://github.com/connectmq/mqtt-code-samples)** — each one works on the free public broker right away and on your private ConnectMQ broker by changing only the host and credentials.
+
+| Language / platform | Library | Code | Guide |
+| --- | --- | --- | --- |
+| Python | paho-mqtt 2.x | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/python) | [connectmq.com](https://connectmq.com/code-samples/python/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=python) |
+| Node.js | MQTT.js 5 | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/nodejs) | [connectmq.com](https://connectmq.com/code-samples/nodejs/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=nodejs) |
+| ESP32 | PubSubClient (Arduino) | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/esp32) | [connectmq.com](https://connectmq.com/code-samples/esp32/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=esp32) |
+| Go | Eclipse Paho Go | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/go) | [connectmq.com](https://connectmq.com/code-samples/go/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=go) |
+| CLI (mosquitto) | mosquitto_pub / mosquitto_sub | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/cli) | [connectmq.com](https://connectmq.com/code-samples/cli/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=cli) |
+| Java | Eclipse Paho Java Client | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/java) | [connectmq.com](https://connectmq.com/code-samples/java/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=java) |
+| C# (.NET) | MQTTnet 4 | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/csharp) | [connectmq.com](https://connectmq.com/code-samples/csharp/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=csharp) |
+| Rust | rumqttc | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/rust) | [connectmq.com](https://connectmq.com/code-samples/rust/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=rust) |
+| Dart (Flutter) | mqtt_client | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/dart-flutter) | [connectmq.com](https://connectmq.com/code-samples/dart-flutter/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=dart-flutter) |
+| Swift / Kotlin | CocoaMQTT (iOS) · HiveMQ MQTT Client (Android) | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/swift-kotlin) | [connectmq.com](https://connectmq.com/code-samples/swift-kotlin/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=swift-kotlin) |
+| Home Assistant | MQTT integration | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/home-assistant) | [connectmq.com](https://connectmq.com/code-samples/home-assistant/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=home-assistant) |
+| Node-RED | mqtt in / mqtt out nodes | [GitHub](https://github.com/connectmq/mqtt-code-samples/tree/main/node-red) | [connectmq.com](https://connectmq.com/code-samples/node-red/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=node-red) |
+
+## Try it now: the free public MQTT broker
+
+No sign-up, no setup — point any MQTT client at `broker.connectmq.com`:
 
 | Protocol | URL |
 | --- | --- |
@@ -42,8 +70,6 @@ No sign-up, no setup — point any MQTT client at it:
 | MQTT over TLS | `mqtts://broker.connectmq.com:8883` |
 | WebSocket | `ws://broker.connectmq.com:8083/mqtt` |
 | Secure WebSocket | `wss://broker.connectmq.com:8084/mqtt` |
-
-Supports MQTT 3.1.1 and MQTT 5.
 
 ```bash
 # Terminal 1: subscribe
@@ -53,48 +79,52 @@ mosquitto_sub -h broker.connectmq.com -p 1883 -t "your-project/sensors/#" -v
 mosquitto_pub -h broker.connectmq.com -p 1883 -t "your-project/sensors/temperature" -m '{"temperature":21.5}'
 ```
 
-> ⚠️ The public broker is **shared**: anyone can subscribe to any topic. Use a unique topic prefix, never send confidential data, and expect no availability guarantee. [Learn more](https://connectmq.com/public-mqtt-broker/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-public)
+> ⚠️ The public broker is **shared**: anyone can subscribe to any topic. Use a unique topic prefix and never send confidential data. For real devices, use a [private ConnectMQ broker](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=public-warning). [About the public broker](https://connectmq.com/public-mqtt-broker/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=public-warning)
 
-## Going to production: your private ConnectMQ broker
-
-When your devices leave the desk, switch to a private broker — only the host, port and credentials change:
-
-1. **[Sign up for free](https://app.connectmq.com/signup?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-private)** (no credit card).
-2. **Create a broker** in the dashboard and copy its host, username and password.
-3. Open the `private-broker/` file of your language, replace `YOUR_BROKER_HOST`, `YOUR_USERNAME` and `YOUR_PASSWORD`, and run it.
-
-What you get:
-
-- 🔒 **TLS** on every connection
-- 🔑 **Per-device credentials**
-- 🛡️ **Topic access control (ACL)** — per topic, per client, with `${clientid}` / `${username}` placeholders
-- 📊 **Device dashboard** — live status, last values and connection history of every device
-- ⚡ **Serverless & fully managed** — scale from one sensor to a fleet without running servers
+## Public vs. private broker
 
 | | Free public broker | Private broker on ConnectMQ |
 | --- | --- | --- |
 | Account | Not needed | Free sign-up, no credit card |
-| Host | `broker.connectmq.com` | Your own broker host |
 | Who can read your topics | **Anyone** | Only your devices |
 | Encryption | Optional (TLS on 8883) | TLS on every connection |
 | Authentication | None | Username and password per device |
 | Topic access control (ACL) | No | Yes, per topic and per client |
-| Device & connection dashboard | No | Yes |
+| Dashboards, rules & alerts | No | Yes |
 | Use it for | Learning, demos, quick tests | Real devices and production |
 
-## Contributing
+## Plans
 
-Found a bug or want an example for another language? [Open an issue](../../issues) or send a pull request.
+| Plan | Price | Concurrent connections | Max message size |
+| --- | --- | --- | --- |
+| **Serverless (Free)** | $0 — no credit card | 25 | 256 KB |
+| **Serverless (Paid)** | from $19/mo, pay as you go | 1,000 | 1 MB |
+| **Dedicated** | from $149/mo, isolated cluster | Unlimited | 20 MB |
 
-## License
+See all details on the [pricing page](https://connectmq.com/pricing/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=plans).
 
-[MIT](LICENSE) — use these examples freely in your own projects, commercial or not.
+## Built for
+
+[Industrial IoT](https://connectmq.com/industrial-iot/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=solutions) ·
+[Smart Home](https://connectmq.com/smart-home/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=solutions) ·
+[Fleet & Logistics](https://connectmq.com/fleet-logistics/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=solutions) ·
+[Energy & Utilities](https://connectmq.com/energy-utilities/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=solutions) ·
+[Connected Products](https://connectmq.com/connected-products/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=solutions) ·
+[Prototyping & Education](https://connectmq.com/prototyping-education/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=solutions)
+
+## Learn more
+
+- 📘 [Developer quickstart](https://connectmq.com/developers/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=learn)
+- 🔐 [Security](https://connectmq.com/security/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=learn)
+- 🔌 [Connectivity](https://connectmq.com/connectivity/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=learn)
+- 🧊 [Digital Twin](https://connectmq.com/digital-twin/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=learn)
+- ✍️ [Blog](https://connectmq.com/blog/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=learn)
 
 ---
 
 <p align="center">
-  <a href="https://connectmq.com/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-footer"><b>ConnectMQ</b></a> — managed MQTT broker for IoT ·
-  <a href="https://app.connectmq.com/signup?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-footer">Start for free</a> ·
-  <a href="https://connectmq.com/pricing/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-footer">Pricing</a> ·
-  <a href="https://connectmq.com/blog/?utm_source=github&utm_medium=code-samples&utm_campaign=mqtt-code-samples&utm_content=root-footer">Blog</a>
+  <a href="https://connectmq.com/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=footer"><b>connectmq.com</b></a> ·
+  <a href="https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=footer">Start free</a> ·
+  <a href="https://connectmq.com/why-connectmq/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=footer">Why ConnectMQ</a> ·
+  <a href="https://github.com/connectmq/mqtt-code-samples">Code samples</a>
 </p>
