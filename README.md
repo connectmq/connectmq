@@ -35,6 +35,19 @@ Connect sensors, machines, vehicles and apps without running a single server.
 | 🧊 **3D Digital Twin** | Bind machines to their MQTT topics and see your factory in 3D, live. |
 | 🔌 **Standard MQTT, no lock-in** | MQTT 3.1.1 and MQTT 5 over TCP, TLS and WebSockets. Use any MQTT client — no SDK required. |
 
+## A look inside ConnectMQ
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="https://connectmq.com/monitoring/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=gallery"><img src="assets/dashboard.png" alt="ConnectMQ dashboard: broker status, ISA-95 topic tree and live value cards with sparklines for every topic" width="100%"></a><br><b>Live dashboard</b> — broker status, ISA-95 topic tree and a live card for every topic</td>
+    <td width="50%" valign="top"><a href="https://connectmq.com/digital-twin/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=gallery"><img src="assets/digital-twin.png" alt="ConnectMQ 3D Digital Twin: machines bound to their MQTT topics with live telemetry" width="100%"></a><br><b>3D Digital Twin</b> — machines bound to their MQTT topics, telemetry on the equipment</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="https://connectmq.com/rules-alerts/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=gallery"><img src="assets/rules.png" alt="ConnectMQ alert rules: conditions on JSON payload fields with message templates" width="100%"></a><br><b>Rules</b> — thresholds on JSON payload fields, such as <code>{temp} &gt; 70</code></td>
+    <td width="50%" valign="top"><a href="https://connectmq.com/rules-alerts/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=gallery"><img src="assets/alerts.png" alt="ConnectMQ triggered alerts: audit log with the exact payload that caused each alert" width="100%"></a><br><b>Alerts</b> — audit log with the exact payload, plus browser notifications</td>
+  </tr>
+</table>
+
 ## Get started in 3 steps
 
 1. **[Create a free account](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=steps)** — the Serverless (Free) plan needs no credit card.
@@ -63,6 +76,8 @@ Ready-to-run examples in **[connectmq/mqtt-code-samples](https://github.com/conn
 ## Try it now: the free public MQTT broker
 
 No sign-up, no setup — point any MQTT client at `broker.connectmq.com`:
+
+<p align="center"><a href="https://connectmq.com/public-mqtt-broker/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=public-shot"><img src="assets/public-broker.png" alt="Free public MQTT broker broker.connectmq.com — MQTT 3.1.1 and 5 over TCP, TLS, WebSocket and secure WebSocket" width="720"></a></p>
 
 | Protocol | URL |
 | --- | --- |
