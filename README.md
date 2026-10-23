@@ -50,7 +50,7 @@ Connect sensors, machines, vehicles and apps without running a single server.
 
 ## Get started in 3 steps
 
-1. **[Create a free account](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=steps)** — the Serverless (Free) plan needs no credit card.
+1. **[Create a free account](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=steps)** — the Free plan needs no credit card.
 2. **Create a broker** and copy its host, username and password from the dashboard.
 3. **Connect your device** with any MQTT client — pick your language in the [code samples](https://github.com/connectmq/mqtt-code-samples).
 
@@ -110,11 +110,13 @@ mosquitto_pub -h broker.connectmq.com -p 1883 -t "your-project/sensors/temperatu
 
 ## Plans
 
-| Plan | Price | Concurrent connections | Max message size |
-| --- | --- | --- | --- |
-| **Serverless (Free)** | $0 — no credit card | 25 | 256 KB |
-| **Serverless (Paid)** | from $19/mo, pay as you go | 1,000 | 1 MB |
-| **Dedicated** | from $149/mo, isolated cluster | Unlimited | 20 MB |
+| Plan | Price | Session minutes | Concurrent connections | Max message size |
+| --- | --- | --- | --- | --- |
+| **Free** | $0 — no credit card | 10,000 in total (one-time) | 5 | 256 KB |
+| **Basic** | $39/mo | 1,000,000 / month | 100 | 256 KB |
+| **Scale** | $199/mo | 10,000,000 / month | 1,000 | 1 MB |
+
+Basic and Scale are billed monthly: cancel anytime, 30-day money-back guarantee. Prices in USD, excluding VAT.
 
 See all details on the [pricing page](https://connectmq.com/pricing/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=plans).
 
