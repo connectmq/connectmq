@@ -48,6 +48,12 @@ Connect sensors, machines, vehicles and apps without running a single server.
   </tr>
 </table>
 
+## Watch: MQTT broker with live dashboard & digital twin in minutes
+
+<p align="center"><a href="https://www.youtube.com/watch?v=lLoYWwdXbS0"><img src="assets/video-mqtt-broker-dashboard-digital-twin.png" alt="Video: MQTT broker with live dashboard and 3D digital twin in minutes with ConnectMQ" width="720"></a></p>
+
+In under three minutes: create device credentials, add MQTT topics, stream live data to the dashboard, see your devices in the 3D digital twin and fire an alert. **[▶ Watch on YouTube](https://www.youtube.com/watch?v=lLoYWwdXbS0)**
+
 ## Get started in 3 steps
 
 1. **[Create a free account](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=steps)** — the Free plan needs no credit card.
