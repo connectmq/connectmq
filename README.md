@@ -140,7 +140,7 @@ docker pull ghcr.io/connectmq/broker:latest   # GitHub Container Registry
 | 📖 **BYOC documentation** | [connectmq/connectmq-broker-docker](https://github.com/connectmq/connectmq-broker-docker): ports, environment variables, TLS, sizing, troubleshooting |
 | ☁️ **Deployment guides** | [Docker Compose](https://github.com/connectmq/connectmq-broker-docker#1-docker--docker-compose-any-vm-or-on-premises-server) · [AWS (ECS Fargate + NLB, EC2)](https://github.com/connectmq/connectmq-broker-docker#2-aws) · [Azure (ACI, Container Apps, VM)](https://github.com/connectmq/connectmq-broker-docker#3-microsoft-azure) · [Google Cloud (GCE, GKE)](https://github.com/connectmq/connectmq-broker-docker#4-google-cloud) |
 | 🐳 **Docker Hub** | [connectmqcom/broker](https://hub.docker.com/r/connectmqcom/broker) |
-| 📦 **GitHub package** | [ghcr.io/connectmq/broker](https://github.com/users/connectmq/packages/container/package/broker) |
+| 📦 **GitHub package** | [ghcr.io/connectmq/broker](https://github.com/connectmq/connectmq-broker-docker/pkgs/container/broker) |
 
 ## MQTT broker migration skills for AI agents
 
