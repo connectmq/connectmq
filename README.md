@@ -16,7 +16,7 @@ Connect sensors, machines, vehicles and apps without running a single server.
   <img src="assets/connectmq-website.png" alt="ConnectMQ — managed MQTT broker: connect sensors, PLC gateways, vehicles and smart homes to dashboards, backends, mobile apps and data platforms" width="900">
 </a>
 
-**[Start free](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero)** · [Pricing](https://connectmq.com/pricing/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero) · [Code samples](https://github.com/connectmq/mqtt-code-samples) · [Free public broker](https://connectmq.com/public-mqtt-broker/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero)
+**[Start free](https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero)** · [Pricing](https://connectmq.com/pricing/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero) · [Code samples](https://github.com/connectmq/mqtt-code-samples) · [Free public broker](https://connectmq.com/public-mqtt-broker/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=hero) · [Run in your cloud (BYOC)](https://github.com/connectmq/connectmq-broker-docker) · [Migration skills](#mqtt-broker-migration-skills-for-ai-agents)
 
 </div>
 
@@ -125,6 +125,37 @@ mosquitto_pub -h broker.connectmq.com -p 1883 -t "your-project/sensors/temperatu
 Basic and Scale are billed monthly: cancel anytime, 30-day money-back guarantee. Prices in USD, excluding VAT.
 
 See all details on the [pricing page](https://connectmq.com/pricing/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=plans).
+
+## Run the broker in your own cloud (BYOC)
+
+Keep message traffic on infrastructure you control: run a ConnectMQ broker node as a container in **AWS, Azure, Google Cloud, Kubernetes or any Docker host**, while ConnectMQ manages authentication, ACLs, quotas and usage reporting. Multi-arch image (`linux/amd64`, `linux/arm64`), runs as a non-root user.
+
+```bash
+docker pull connectmqcom/broker:latest        # Docker Hub
+docker pull ghcr.io/connectmq/broker:latest   # GitHub Container Registry
+```
+
+| | |
+| --- | --- |
+| 📖 **BYOC documentation** | [connectmq/connectmq-broker-docker](https://github.com/connectmq/connectmq-broker-docker): ports, environment variables, TLS, sizing, troubleshooting |
+| ☁️ **Deployment guides** | [Docker Compose](https://github.com/connectmq/connectmq-broker-docker#1-docker--docker-compose-any-vm-or-on-premises-server) · [AWS (ECS Fargate + NLB, EC2)](https://github.com/connectmq/connectmq-broker-docker#2-aws) · [Azure (ACI, Container Apps, VM)](https://github.com/connectmq/connectmq-broker-docker#3-microsoft-azure) · [Google Cloud (GCE, GKE)](https://github.com/connectmq/connectmq-broker-docker#4-google-cloud) |
+| 🐳 **Docker Hub** | [connectmqcom/broker](https://hub.docker.com/r/connectmqcom/broker) |
+| 📦 **GitHub package** | [ghcr.io/connectmq/broker](https://github.com/users/connectmq/packages/container/package/broker) |
+
+## MQTT broker migration skills for AI agents
+
+Moving to ConnectMQ from another broker or cloud IoT service? These skills give your AI coding agent (Claude Code, Claude.ai or any agent that reads `SKILL.md`) the playbook of an MQTT migration engineer: audit your current setup, convert ACLs and permissions, plan the migration, bridge both brokers, move clients in waves and roll back if needed.
+
+| Migrating from | Skills repository |
+| --- | --- |
+| HiveMQ (CE, Enterprise, Cloud) | [connectmq/hivemq-migration-skills](https://github.com/connectmq/hivemq-migration-skills) |
+| Eclipse Mosquitto | [connectmq/mosquitto-migration-skills](https://github.com/connectmq/mosquitto-migration-skills) |
+| EMQX | [connectmq/emqx-migration-skills](https://github.com/connectmq/emqx-migration-skills) |
+| VerneMQ | [connectmq/vernemq-migration-skills](https://github.com/connectmq/vernemq-migration-skills) |
+| AWS IoT Core | [connectmq/aws-iot-core-migration-skills](https://github.com/connectmq/aws-iot-core-migration-skills) |
+| Azure IoT Hub | [connectmq/azure-iot-hub-migration-skills](https://github.com/connectmq/azure-iot-hub-migration-skills) |
+
+Install in Claude Code, for example: `/plugin marketplace add connectmq/hivemq-migration-skills`. Each repository's README covers manual and Claude.ai installation.
 
 ## Built for
 
@@ -252,5 +283,6 @@ See all details on the [pricing page](https://connectmq.com/pricing/?utm_source=
   <a href="https://connectmq.com/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=footer"><b>connectmq.com</b></a> ·
   <a href="https://app.connectmq.com/signup?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=footer">Start free</a> ·
   <a href="https://connectmq.com/why-connectmq/?utm_source=github&utm_medium=profile&utm_campaign=github-profile&utm_content=footer">Why ConnectMQ</a> ·
-  <a href="https://github.com/connectmq/mqtt-code-samples">Code samples</a>
+  <a href="https://github.com/connectmq/mqtt-code-samples">Code samples</a> ·
+  <a href="https://github.com/connectmq/connectmq-broker-docker">BYOC / Docker</a>
 </p>
